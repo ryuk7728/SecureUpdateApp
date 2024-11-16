@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('bg.png'); 
+    background-color: #0A101F;
+}
+.container{
+    margin:130px;
+    margin-left: 300px;
+    padding:10px 170px;
+    width: 560px;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border: 0.75px solid aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.title {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+    font-family: "Share Tech Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .subtitle {
+    font-family: 'Poppins', sans-serif;
+    width: 500px;
+    text-align: center;
+    margin:45px 260px 30px 280px;
+    font-size: 1.3rem;
+    color: white;
+  }
+  .but {
+    height: 40px;
+  width: 375px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  margin-left: 50px;
+  font-size: large;
+  background-color: #007AFF;
+  border-radius: 25px;
+  }

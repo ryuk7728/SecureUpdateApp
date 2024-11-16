@@ -1,0 +1,22 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secure Update Download</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Download Secure Software Update</h1>
+        <p class="subtitle">Click below to download the encrypted update package and verification script.</p>
+        <a href="/download/update">
+            <button class="but">Download Encrypted Update Package (ZIP)</button>
+        </a><br><br>
+        <a href="/download/script">
+            <button class="but">Download Verification Script</button>
+        </a>
+    </div>
+</body>
+</html>
