@@ -16,8 +16,8 @@ This project provides a secure mechanism for distributing software updates by en
 
 ### **1. Clone the Repository**
 ```bash
-git clone https://github.com/your_username/secure-update-mechanism.git
-cd secure-update-mechanism
+git clone https://github.com/ryuk7728/SecureUpdateApp
+cd SecureUpdateApp
 ```
 
 ### **2. Set Up Python Environment**
@@ -26,10 +26,6 @@ cd secure-update-mechanism
   ```bash
   python -m venv venv
   source venv/bin/activate  # On Windows: venv\Scripts\activate
-  ```
-- Install required dependencies:
-  ```bash
-  pip install -r requirements.txt
   ```
 
 ### **3. Directory Structure**
@@ -52,10 +48,10 @@ secure-update-mechanism/
 ├── templates/                 # HTML templates for the Flask app
 │   └── index.html
 ├── keys/                      # Stores generated cryptographic keys
-│   ├── private_key.pem
-│   ├── public_key.pem
-│   └── encrypted_aes_key.key
-└── requirements.txt           # Python dependencies
+    ├── private_key.pem
+    ├── public_key.pem
+    └── encrypted_aes_key.key
+          
 ```
 
 ---
@@ -156,7 +152,7 @@ If verification succeeds:
 
 ## **Requirements**
 - Python 3.8 or later.
-- Libraries listed in `requirements.txt`:
+- Libraries listed below:
   ```plaintext
   Flask
   cryptography
